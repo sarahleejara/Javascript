@@ -5,7 +5,7 @@ var metier = "blogger";
 
 console.log("Vous serez " + metier + " habiterez à " + pays + ", et marié a " + femme + " avec " + enfants + " enfants.")
 
-var année = Number(prompt("Entrer l'année courrante"));
+var année = Number(prompt("Entrer l'année courrante")); //prompt == fill-in pop up
 var naissance = Number(prompt("Entrer votre année de naissance"));
 var age = Number(année - naissance)
 console.log("Vous avez " + age + " ans.");
