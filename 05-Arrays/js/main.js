@@ -10,7 +10,6 @@ document.getElementById("demo").innerHTML = result;
 // Exercice 2
 
 var actors = ["Jason Momoa", "Chris Hemsworth", "Chris Evans"];
-num = 0;
 // tant que l'élément est plus petit que la longeur de la var est va loop sinon elle s'arrete
 for (var i = 0; i < actors.length; i++) {
   console.log("Number " + (i+1) + " is " + actors[i] + ".");
